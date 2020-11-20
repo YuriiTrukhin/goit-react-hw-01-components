@@ -1,10 +1,13 @@
 .profile {
-  margin: 0 auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
   width: 450px;
-  height: 550px;
+  height: 500px;
   background-color: rgb(231, 228, 228);
   padding-top: 95px;
-  /* padding-left: 115px; */
+  border-radius: 5px;
 }
 .description {
   margin: 0 auto;
@@ -41,7 +44,7 @@
   width: 250px;
 }
 
-li {
+.listItem {
   display: flex;
   justify-content: center;
   align-items: center;

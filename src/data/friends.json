@@ -1,0 +1,32 @@
+[
+  {
+    "avatar": "https://cdn.akc.org/content/article-body-image/funny-basset_hound_yawning.jpg",
+    "name": "Mango",
+    "isOnline": true,
+    "id": 1812
+  },
+  {
+    "avatar": "https://i.redd.it/ee7izhcvwk651.jpg",
+    "name": "Kiwi",
+    "isOnline": false,
+    "id": 1137
+  },
+  {
+    "avatar": "https://i.pinimg.com/736x/9f/92/d8/9f92d8df488e03af5c576079d38770b8.jpg",
+    "name": "Ajax",
+    "isOnline": true,
+    "id": 1213
+  },
+  {
+    "avatar": "https://www.funcage.com/blog/wp-content/uploads/2014/02/Attack-Of-The-Funny-Dogs-001-550x660.jpg",
+    "name": "Jay",
+    "isOnline": true,
+    "id": 1714
+  },
+  {
+    "avatar": "https://www.topbestpics.com/wp-content/uploads/2017/04/funny-dogs-pics-5-600x350.jpg",
+    "name": "Poly",
+    "isOnline": false,
+    "id": 1284
+  }
+]
