@@ -1,3 +1,5 @@
+@value colors: '../../color.css';
+@value grayColor, redColor, blackColor, whiteColor from colors;
 .profile {
   margin-bottom: 20px;
   margin-top: 20px;
@@ -13,7 +15,7 @@
   margin: 0 auto;
   width: 250px;
   height: 350px;
-  background-color: #fff;
+  background-color: whiteColor;
   border: solid 1px rgb(221, 216, 216);
 }
 .avatar {
@@ -30,11 +32,11 @@
 }
 .tag {
   text-align: center;
-  color: gray;
+  color: grayColor;
 }
 .location {
   text-align: center;
-  color: gray;
+  color: grayColor;
 }
 .stats {
   padding: 0;
@@ -54,9 +56,9 @@
   width: 83px;
 }
 .label {
-  color: gray;
+  color: grayColor;
 }
 .quantity {
   font-size: 20px;
-  color: black;
+  color: blackColor;
 }

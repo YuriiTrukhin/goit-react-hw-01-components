@@ -1,23 +1,25 @@
+@value colors: '../../color.css';
+@value grayColor, redColor, blackColor, whiteColor from colors;
 .transactionHistory {
   margin: 0 auto;
   margin-bottom: 50px;
   color: black;
   width: 500px;
   border-collapse: collapse;
-  border: 1px solid grey;
+  border: 1px solid grayColor;
   text-align: center;
 }
 
 th {
-  border: 1px solid grey;
+  border: 1px solid grayColor;
   background-color: #f78c79;
-  color: white;
+  color: whiteColor;
   font-weight: 600;
   font-size: 15px;
   padding: 5px 0 5px 0;
 }
 td {
-  border: 1px solid grey;
+  border: 1px solid grayColor;
   font-weight: 300;
   font-size: 13px;
   padding: 5px 0 5px 0;

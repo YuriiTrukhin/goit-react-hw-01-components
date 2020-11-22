@@ -1,3 +1,5 @@
+@value colors: '../../color.css';
+@value grayColor, redColor, blackColor, whiteColor from colors;
 .statistics {
   margin: 0 auto;
   width: 450px;
@@ -10,7 +12,7 @@
   list-style: none;
   display: flex;
   width: 100%;
-  background-color: #fff;
+  background-color: whiteColor;
 }
 .title {
   margin: 0;
@@ -23,5 +25,5 @@
   flex-direction: column;
   height: 50px;
   width: 100px;
-  border: solid 1px gray;
+  border: solid 1px grayColor;
 }
